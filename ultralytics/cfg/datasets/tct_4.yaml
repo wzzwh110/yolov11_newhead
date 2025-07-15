@@ -1,0 +1,32 @@
+path:  /data/han/tct # dataset root dir
+train: images/train_pos  # train images (relative to 'path') 128 images
+val: images/val_pos  # val images (relative to 'path') 128 images
+test: images/test_pos # test images (optional)
+# Classes
+nc: 4  # number of classes
+names: ['asc-us&lsil',
+        'asc-h&hsil',
+        'AGC-NOS',
+          'AGC-N']  # class names
+#
+#path:  D:\work\TCT\data\datct\ori_data\debug\ori # dataset root dir
+#train: images/train  # train images (relative to 'path') 128 images
+#val: images/val  # val images (relative to 'path') 128 images
+#test: images/test# test images (optional)
+## Classes
+#nc: 15  # number of classes
+#names: ['background',
+#        'buchengshu',
+#        'zhengchang-yan',
+#        'dichong',
+#        'zhenjun',
+#        'huasheng',
+#        'xiansuo',
+#        'fangxianjun',
+#        'jingguan',
+#        'neimo',
+#        'paozhen',
+#        'asc-us&lsil',
+#        'asc-h&hsil',
+#        'AGC-NOS',
+#          'AGC-N']  # class names
